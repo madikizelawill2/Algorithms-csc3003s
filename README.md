@@ -14,8 +14,6 @@ I created this repository to deepen my understanding of algorithms through hands
 
 ## Implemented Algorithms
 
-(List your implemented algorithms here. For example:)
-
 1. Brute force
    - Bubble Sort
    - Merge Sort
@@ -58,7 +56,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 - CSC3003S course at the University of Cape Town
-- (Any textbooks or resources you found particularly helpful)
 
 ## Support
 
