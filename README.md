@@ -15,20 +15,27 @@ I created this repository to deepen my understanding of algorithms through hands
 ## Implemented Algorithms
 
 1. Brute force
-   - Bubble Sort
-   - Merge Sort
-   - Quick Sort
-
-2. Graph Algorithms
+2. Divide and Conquer
    - Breadth-First Search (BFS)
    - Depth-First Search (DFS)
    - Dijkstra's Algorithm
+   - Binary Search
+   - Closest Pair Search
+   - Euclid's Algorithm
+   - Fake Coin
+   - Finding K'th Search (Stastic)
+   - Generating Permutations
+   - Insertion Sort
+   - Interpolation Search
+   - Merge Sort
+   - Multiplication a la Russe
+   - Quicksort
+   - Quick Hull
+   - Topological Sort
 
 3. Dynamic Programming
    - Fibonacci Sequence
    - Longest Common Subsequence
-
-(Add or modify this list based on what you've actually implemented)
 
 ## How to Use
 
