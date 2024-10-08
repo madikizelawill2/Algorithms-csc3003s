@@ -1,0 +1,96 @@
+Question One [50 marks]
+File names
+Use reverse.c if you are writing your program in C.
+Use reverse.cpp if you are writing your program in C++.
+Use Reverse.java if you are writing your program in Java.
+Note that case matters.
+
+Problem Description
+An N×M matrix is a set of numbers arranged in a rectangular array of N rows and M columns.
+
+Write a program that accepts as input an N×M matrix and that reverses the order of the rows and the order of the columns.
+
+Example
+1	2	3	4
+5	6	7	8
+will be reversed to produce
+
+8	7	6	5
+4	3	2	1
+Input and Output
+Program input and output will make use of stdio streams (System.in and System.out in Java) i.e., not file I/O.
+
+Input consists of multiple lines. The first line contains the number of rows, N. The second line contains the number of columns, M. The subsequent N lines will each contain the M space-separated values for a row.
+
+Output consists of the N reversed rows of M reversed (space-separated) values. Each row will be terminated with a line break — in Java, for example, use System.out.println, not System.out.print. The automatic marker expects this precise form.
+
+Sample Input:
+
+2
+4
+1 2 3 4
+5 6 7 8
+
+Sample Output:
+
+8 7 6 5
+4 3 2 1
+
+Constraints
+0 < N, M ≤ 100
+Time < 10 seconds
+
+Scoring
+Each test case that is answered correctly will score 5 points.
+
+Question Two [50 marks]
+File names
+Use happy.c if you are writing your program in C.
+Use happy.cpp if you are writing your program in C++.
+Use Happy.java if you are writing your program in Java.
+Note that case matters.
+
+Problem Description
+Given an m-digit number, n0 = d1…dm, summing the square of its digits, i.e., (d1)2+…+(dm)2, produces a number n1.
+
+Number n0 is a happy number if doing this repeatedly generates an number ni = 1.
+
+An unhappy number is one that cycles, such that there is an ni == nj where j > i.
+
+A happy number n is a left-truncatable happy number if,
+
+After removal of the leading (left-most) digit, d1, the remainder (the number formed from the digits d2… dm) is still a happy number, and
+This operation can be repeated until the remainder consists solely of dm.
+Examples
+Number	Evaluation
+
+2	2 is an unhappy number. The sum of the squares of its digits, 2^2 is 4, and 4^2 is 16, and 1^2+6^2 is 37, and 32+72 is 58, and 52+82 is 89, and 82+92 is 145, and 12+42+52 is 42, and 42+22 is 20, and 22+02 is 4, which has been seen before.
+
+291	291 is a happy number. The sum of the squares of its digits, 22+92+12 is 86, and 82+62 is 100, and 12+02+02 is 1. Removing the left-most digit of 291 gives 91, and 91 is a happy number: 92+12 is 82, and 82+22 is 68, and 62+82 is 100, and 12+02+02 is 1. Removing the left-most digit of 91 gives 1, which trivially, is a happy number, so 291 is a left-truncatable happy number.
+
+13	13 is a happy number. The sum of the squares of its digits, 32+12, is 10, and 12+02 is 1. Removing the first digit of 13 produces 3, which is an unhappy number: 32, is 9, and 92 is 81, and 82+12 is 65, and 62+52 is 61, and 62+12 is 37, and 32+72 is 58, and 52+82 is 89, and 82+92 is 145, and 12+42+52 is 42, and 42+22 is 20, and 22+02 is 4, and 42 is 16, and 12+62 is 37, which has been seen before. So the number 13 is not a left-truncatable happy number.
+Write a program that, given a value, N, will compute the largest left-truncatable happy number less than N.
+
+Input and Output
+Program input and output will make use of stdio streams (System.in and System.out in Java) i.e., not file I/O.
+
+Input consists of a single line containing a single positive integer, N.
+
+Output consists of a single integer, the largest left-truncatable happy number less than N.
+
+Sample Input:
+
+300
+
+Sample Output:
+
+291
+
+Constraints
+1 < N ≤ 300,000
+Time < 10 seconds
+
+Scoring
+Each test case that is answered correctly will score 5 points.
+
+END
